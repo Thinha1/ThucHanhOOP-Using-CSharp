@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSNhanVien>
+	<NV>
+		<MaNV>NV001</MaNV>
+		<HoTen>Dang Anh Thinh</HoTen>
+		<HeSoLuong>2.1</HeSoLuong>
+		<NamVaoLam>1999</NamVaoLam>
+	</NV>
+	<NV>
+		<MaNV>NV002</MaNV>
+		<HoTen>Nguyen Thanh Nhan</HoTen>
+		<HeSoLuong>3.5</HeSoLuong>
+		<NamVaoLam>2002</NamVaoLam>
+	</NV>
+	<NV>
+		<MaNV>NV003</MaNV>
+		<HoTen>Nguyen Trinh Hoang Tu</HoTen>
+		<HeSoLuong>2.2</HeSoLuong>
+		<NamVaoLam>2000</NamVaoLam>
+	</NV>
+</DSNhanVien>

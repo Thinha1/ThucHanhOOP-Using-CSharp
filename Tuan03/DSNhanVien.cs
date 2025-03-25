@@ -52,7 +52,7 @@ namespace _2001230930_DangAnhThinh_Buoi02_Bai2
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(file);
-            XmlNodeList nodeList = doc.SelectNodes("/DSNhanVien/NhanVien");
+            XmlNodeList nodeList = doc.SelectNodes("/DSNhanVien/NV");
             foreach (XmlNode node in nodeList)
             {
                 NhanVien nv = new NhanVien();
