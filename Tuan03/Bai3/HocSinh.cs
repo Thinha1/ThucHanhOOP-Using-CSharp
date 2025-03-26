@@ -47,6 +47,38 @@ namespace Bai3
             }
         }
 
+        public double tinhDiemTrungBinh()
+        {
+            return DsMonHoc.Average(t => t.tinhDiemTongKet());
+        }
+
+        public string xepLoaiHocSinh()
+        {
+            if (tinhDiemTrungBinh() >= 8 && !(DsMonHoc.Any(t => t.tinhDiemTongKet() < 6.5)))
+                return "Giỏi";
+            else if (tinhDiemTrungBinh() >= 6.5 && !(DsMonHoc.Any(t => t.tinhDiemTongKet() < 5.0)))
+                return "Khá";
+            else if (tinhDiemTrungBinh() >= 5.0 && !(DsMonHoc.Any(t => t.tinhDiemTongKet() < 2.0)))
+                return "Trung bình";
+            else return "Kém";
+        }
+        public string xetKetQuaHocTap()
+        {
+            if (xepLoaiHocSinh() != "Yếu" && xepLoaiHocSinh() != "Kém")
+                return "Được lên lớp";
+            else if (xepLoaiHocSinh() == "Yếu")
+                return "Thi lại";
+            return "Ở lại lớp";
+        }
+        public void inDSMonDat(HocSinh x)
+        {
+            Console.WriteLine("Thông tin môn học kết quả \"ĐẠT\"");
+            foreach(MonHoc mh in x.DsMonHoc)
+            {
+                if (mh.tinhKetQua() == "Đạt")
+                    mh.xuatTTMonHoc();
+            }
+        }
         public void xuatTTHS()
         {
             Console.WriteLine($"Mã học sinh: {MaHS}\nTên học sinh: {TenHS}");
@@ -55,6 +87,11 @@ namespace Bai3
             {
                 mh.xuatTTMonHoc();
             }
+            Console.WriteLine($"Điểm trung bình: {tinhDiemTrungBinh()}\nXếp loại: {xepLoaiHocSinh()}\nKết quả học tập: {xetKetQuaHocTap()}");
         }
+
+        
+
+
     }
 }

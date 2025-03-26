@@ -14,6 +14,7 @@ namespace Bai3
             HocSinh hs1 = new HocSinh();
             hs1.nhapTTHS();
             hs1.xuatTTHS();
+            hs1.inDSMonDat(hs1);
         }
     }
 }

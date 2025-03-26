@@ -58,7 +58,7 @@ namespace Bai3
             MaMH = Console.ReadLine();
             Console.Write("Nhập tên môn học: ");
             TenMH = Console.ReadLine();
-            Console.Write("Nhập điểm thường xuyên");
+            Console.Write("Nhập điểm thường xuyên: ");
             DiemKTThuongXuyen = float.Parse(Console.ReadLine());
             Console.Write("Nhập điểm giữa kỳ: ");
             DiemGKi = float.Parse(Console.ReadLine());
@@ -71,5 +71,7 @@ namespace Bai3
             Console.WriteLine($"Mã môn học: {MaMH}\nTên môn học: {TenMH}\n" +
                 $"Điểm thường xuyên: {DiemKTThuongXuyen}\nĐiểm giữa kỳ: {DiemGKi}\nĐiểm cuối kỳ: {DiemCKi}\nĐiểm tổng kết: {tinhDiemTongKet()}\nKết quả: {tinhKetQua()}");
         }
+        
+
     }
 }
