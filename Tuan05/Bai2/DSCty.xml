@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CongTy>
+	<TenCty>Thịnh Corp</TenCty>
+	<SoDienThoai>0129820875</SoDienThoai>
+	<DiaChi>140 LTT</DiaChi>
+	<DSHD>
+		<HD>
+			<Loai>1</Loai> <!--Khách hàng cá nhân-->
+			<MaKH>KH001</MaKH>
+			<TenKH>Thịnh</TenKH>
+			<SoLuong>6</SoLuong>
+			<GiaBan>3000000</GiaBan>
+			<KhoangCach>9</KhoangCach>
+		</HD>
+		<HD>
+			<Loai>2</Loai> <!--Đại lý cấp một-->
+			<MaKH>KH002</MaKH>
+			<TenKH>Phú</TenKH>
+			<SoLuong>100</SoLuong>
+			<GiaBan>500000</GiaBan>
+			<ThoiGianHopTac>6</ThoiGianHopTac>
+		</HD>
+		<HD>
+			<Loai>3</Loai> <!--Khách hàng Công Ty-->
+			<MaKH>KH003</MaKH>
+			<TenKH>QSoft</TenKH>
+			<SoLuong>200</SoLuong>
+			<GiaBan>4000000</GiaBan>
+			<SoLuongNV>3000</SoLuongNV>
+		</HD>
+		<HD>
+			<Loai>2</Loai>
+			<!--Đại lý cấp một-->
+			<MaKH>KH004</MaKH>
+			<TenKH>Tú</TenKH>
+			<SoLuong>200</SoLuong>
+			<GiaBan>700000</GiaBan>
+			<ThoiGianHopTac>19</ThoiGianHopTac>
+		</HD>
+		<HD>
+			<Loai>1</Loai>
+			<!--Khách hàng cá nhân-->
+			<MaKH>KH005</MaKH>
+			<TenKH>Nhân</TenKH>
+			<SoLuong>8</SoLuong>
+			<GiaBan>240000</GiaBan>
+			<KhoangCach>11</KhoangCach>
+		</HD>
+		<HD>
+			<Loai>1</Loai>
+			<!--Khách hàng cá nhân-->
+			<MaKH>KH001</MaKH>
+			<TenKH>Thịnh</TenKH>
+			<SoLuong>2</SoLuong>
+			<GiaBan>300000</GiaBan>
+			<KhoangCach>9</KhoangCach>
+		</HD>
+	</DSHD>
+</CongTy>

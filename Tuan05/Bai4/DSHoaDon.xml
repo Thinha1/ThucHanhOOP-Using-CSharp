@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSHoaDon>
+	<HoaDon>
+		<Loai>1</Loai> <!--Khách VIP-->
+		<MaHD>HD001</MaHD>
+		<TenKH>Thịnh</TenKH>
+		<NgayLap>2/4/2025</NgayLap>
+		<MatHang>
+			<MaMH>MH001</MaMH>
+			<TenMH>Dầu Diesel</TenMH>
+			<DonGia>20000</DonGia>
+		</MatHang>
+		<SoLuong>200</SoLuong>
+	</HoaDon>
+	<HoaDon>
+		<!--Khách Thân Thiết-->
+		<Loai>2</Loai> 
+		<MaHD>HD002</MaHD>
+		<TenKH>Tú</TenKH>
+		<NgayLap>4/5/2025</NgayLap>
+		<MatHang>
+			<MaMH>MH002</MaMH>
+			<TenMH>Xăng RON-92</TenMH>
+			<DonGia>23000</DonGia>
+		</MatHang>
+		<SoLuong>15</SoLuong>
+	</HoaDon>
+	<HoaDon>
+		<!--Khách Vãng Lai-->
+		<Loai>3</Loai>
+		<MaHD>HD003</MaHD>
+		<TenKH></TenKH>
+		<NgayLap>3/5/2025</NgayLap>
+		<MatHang>
+			<MaMH>MH001</MaMH>
+			<TenMH>Xăng RON-95</TenMH>
+			<DonGia>24000</DonGia>
+		</MatHang>
+		<SoLuong>6</SoLuong>
+	</HoaDon>
+	<HoaDon>
+		<!--Khách Vãng Lai-->
+		<Loai>3</Loai>
+		<MaHD>HD004</MaHD>
+		<TenKH></TenKH>
+		<NgayLap>3/7/2025</NgayLap>
+		<MatHang>
+			<MaMH>MH001</MaMH>
+			<TenMH>Xăng RON-95</TenMH>
+			<DonGia>24000</DonGia>
+		</MatHang>
+		<SoLuong>50</SoLuong>
+	</HoaDon>
+</DSHoaDon>

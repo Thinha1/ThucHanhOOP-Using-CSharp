@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SinhVien>
+	<MaSV>SV001</MaSV>
+	<TenSV>Thịnh</TenSV>
+	<DSMH>
+		<MH>
+			<!--Môn lí thuyết-->
+			<Loai>1</Loai> 
+			<Ma>MH001</Ma>
+			<Ten>OOP</Ten>
+			<SoTC>2</SoTC>
+			<DiemTL>8</DiemTL>
+			<DiemGK>10</DiemGK>
+			<DiemCK>10</DiemCK>
+			<KhoaQL>CNTT</KhoaQL>
+		</MH>
+		<MH>
+			<!--Môn thực hành-->
+			<Loai>2</Loai>
+			<Ma>MH002</Ma>
+			<Ten>Thực hành DB</Ten>
+			<SoTC>1</SoTC>
+			<DiemKT1>10</DiemKT1>
+			<DiemKT2>8</DiemKT2>
+			<DiemKT3>7</DiemKT3>
+			<DiemKT4>10</DiemKT4>
+			<KhoaQL>CNTT</KhoaQL>
+		</MH>
+		<MH>
+			<!--Môn thực hành-->
+			<Loai>3</Loai>
+			<Ma>MH003</Ma>
+			<Ten>Công nghệ phần mềm</Ten>
+			<SoTC>3</SoTC>
+			<DiemGVHD>9</DiemGVHD>
+			<DiemGVPB>10</DiemGVPB>
+			<KhoaQL>CNTT</KhoaQL>
+		</MH>
+		<MH>
+			<!--Môn lí thuyết-->
+			<Loai>1</Loai>
+			<Ma>MH004</Ma>
+			<Ten>Kinh tế vi mô</Ten>
+			<SoTC>3</SoTC>
+			<DiemTL>6</DiemTL>
+			<DiemGK>9</DiemGK>
+			<DiemCK>8</DiemCK>
+			<KhoaQL>QTKD</KhoaQL>
+		</MH>
+		<MH>
+			<!--Môn lí thuyết-->
+			<Loai>1</Loai>
+			<Ma>MH005</Ma>
+			<Ten>Triết học Mác-Lê Nin</Ten>
+			<SoTC>3</SoTC>
+			<DiemTL>8</DiemTL>
+			<DiemGK>7</DiemGK>
+			<DiemCK>9</DiemCK>
+			<KhoaQL>LLTT</KhoaQL>
+		</MH>
+	</DSMH>
+</SinhVien>
